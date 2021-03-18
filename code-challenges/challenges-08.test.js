@@ -60,7 +60,7 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 
 const filterStringsWithVowels = (arr) => {
-  return arr.filter(string => string.includes('/[aeiou]/gi'));
+  return arr.filter(word => word.match('/[aeiou]/g'));
 };
 
 
