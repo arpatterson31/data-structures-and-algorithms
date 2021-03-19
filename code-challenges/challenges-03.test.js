@@ -123,7 +123,7 @@ For example, [1, 14, 0.2, -281, 54782] is only correctly sorted in that order.
 ------------------------------------------------------------------------------------------------ */
 
 const sortNumbersByLength = (arr) => {
-  // Solution code here...
+  // return arr.sort((a, b) => (a.length > b.length ? 1 : -1));
 };
 
 /*-----------------------------------------------------------------------------------------------
@@ -145,7 +145,7 @@ const people = [
 ];
 
 const sortPeople = (arr) => {
-  // Solution code here...
+  return arr.sort((a, b) => (a.lastName > b.lastName ? 1 : -1));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -301,7 +301,7 @@ xdescribe('Testing challenge 9', () => {
   });
 });
 
-xdescribe('Testing challenge 10', () => {
+describe('Testing challenge 10', () => {
   test('It should sort people by their last names', () => {
     expect(sortPeople(people)).toStrictEqual([
       new Person('Casey', 'Codefellow', 38),
