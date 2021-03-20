@@ -19,8 +19,11 @@ Becomes:
 ------------------------------------------------------------------------------------------------ */
 
 function transformToLis(obj){
-  // return Object.entries(obj).map(key => '<li>' + key + '</li>');
-
+  const kvPairs = [];
+  for (let [key,value] of Object.entries(obj)){
+    kvPairs.push(`<li>${key}: ${value}</li>`);
+  }
+  return kvPairs;
 }
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
