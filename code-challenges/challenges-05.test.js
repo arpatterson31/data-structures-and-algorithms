@@ -130,8 +130,10 @@ const listFoods = (recipe) => {
   let result = [];
   const ingredients = recipe.ingredients;
   for (let i = 0; i < ingredients.length; i++){
-    let listItem = ingredients[i].split(' ');
-    result.push(listItem.splice(2, ingredients.length).join(' '));
+    let x = ingredients[i].indexOf(' ') + 1;
+    let newItem = ingredients[i].slice(x);
+    let index = newItem.indexOf(' ') + 1;
+    result.push(newItem.slice(index));
   }
   return result;
 };
