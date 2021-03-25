@@ -23,7 +23,8 @@ Write a function named containsW that takes in a string. This function should us
 ------------------------------------------------------------------------------------------------ */
 
 const containsW = (str) => {
-  // Solution code here...
+  let regex = /w/;
+  return regex.test(str);
 };
 
 /* ------------------------------------------------------------------------------------------------
