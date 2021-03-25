@@ -65,7 +65,9 @@ Return an array containing all the matches.
 ------------------------------------------------------------------------------------------------ */
 
 const isCapitalized = (str) => {
-  // Solution code here...
+  let regex = /b[A-Z]\.*?\b/g;
+  let arr = str.match(regex);
+  return arr || [];
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -75,7 +77,14 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  // Solution code here...
+  let regex = /^[A-J]\w/g;
+  let array = [];
+  arr.forEach((value) => {
+    if(regex.test(value)){
+      array.push(value);
+    }
+  });
+  return array;
 };
 
 /* ------------------------------------------------------------------------------------------------
