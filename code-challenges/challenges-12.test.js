@@ -123,7 +123,16 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  // Solution code here...
+  let treats = 0;
+  arr.forEach((a) => {
+    let listItem = a.items;
+    listItem.forEach((b) => {
+      if(b.name === 'Treats'){
+        treats = b.quantity;
+      }
+    });
+  });
+  return treats;
 };
 
 /* ------------------------------------------------------------------------------------------------
