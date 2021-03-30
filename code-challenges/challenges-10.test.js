@@ -157,7 +157,7 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
-  return data.filter((char) => char.gender === 'male' || char.gender === 'female').map((character) => character.name).join(' and ');
+  return data.sort((a, b) => +a.height < +b.height ? -1 : 1)[0].name;
 };
 
 /* ------------------------------------------------------------------------------------------------
