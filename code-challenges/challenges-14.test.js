@@ -120,7 +120,7 @@ This data could be sorted by name or price.
 ------------------------------------------------------------------------------------------------ */
 
 const sortBy = (property, arr) => {
-  return arr.sort((a,b) => {
+  return arr.sort((a, b) => {
     return a[property] > b[property] ? 1 : -1;
   });
 };
@@ -161,7 +161,24 @@ Here is a sample board:
 ------------------------------------------------------------------------------------------------ */
 
 const detectTicTacToeWin = (board) => {
-  // Solution code here...
+  const helpCheck = (row1, col1, row2, col2, row3, col3) => {
+    return board[row1][col1] !== '' &&
+      board[row1][col1] === board[row2][col2] &&
+      board[row2][col2] === board[row3][col3];
+  };
+
+  if (helpCheck(0, 0, 0, 1, 0, 2)) return true; // top row
+  if (helpCheck(1, 0, 1, 1, 1, 2)) return true; // middle row
+  if (helpCheck(2, 0, 2, 1, 2, 2)) return true; // bottom row
+
+  if (helpCheck(0, 0, 1, 0, 2, 0)) return true; // left column
+  if (helpCheck(0, 1, 1, 1, 2, 1)) return true; // center column
+  if (helpCheck(0, 2, 1, 2, 2, 2)) return true; // right column
+
+  if (helpCheck(0, 0, 1, 1, 2, 2)) return true; // top left diagonal
+  if (helpCheck(0, 2, 1, 1, 2, 0)) return true; // top right diagonal
+
+  return false;
 };
 
 /* ------------------------------------------------------------------------------------------------
