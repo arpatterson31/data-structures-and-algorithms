@@ -5,6 +5,7 @@
 ### Table of Contents
 
 - [Array Shift](Challenges/arrayShift/array-shift.js)
+- [Array Binary Search](Challenges/arrayBinarySearch/array-binary-search.js)
 
 ### Folder and Challenge Setup
 
