@@ -19,8 +19,8 @@
 ## Links and Resources
 
 - [Wikipedia - Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
-- [Link to my competed code](arrayBinarySearch/array-binary-search.js)
-- [Link to my test for code challege](../__tests__/array-binary-search-test.js)
+- [Link to my completed code](https://github.com/arpatterson31/data-structures-and-algorithms/blob/array-binary-search/javascript/Challenges/arrayBinarySearch/array-binary-search.js)
+- [Link to my test for code challege](https://github.com/arpatterson31/data-structures-and-algorithms/blob/array-binary-search/javascript/Challenges/__tests__/array-binary-search.test.js)
 
 ## Solution
 
