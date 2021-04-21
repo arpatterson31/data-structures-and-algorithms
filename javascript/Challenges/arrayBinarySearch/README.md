@@ -8,7 +8,18 @@
 - NOTE: The search algorithm used in your function should be a binary search. Check the Resources section for details
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+- No methods allowed, so we are going to need to use variables, a while loop.
+
+- Worst case performance *O*(log *n*)
+- Best case performance *O*(1)
+- Average performance *O*(log *n*)
+- Worst case space complexity *O*(1)
+
+## Links and Resources
+
+- [Wikipedia - Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 ## Solution
-<!-- Embedded whiteboard image -->
+
+![Array Binary Whiteboard](./assets/arraybinary.jpg)
