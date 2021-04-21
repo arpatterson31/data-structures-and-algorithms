@@ -1,6 +1,6 @@
 'use strict';
 
-const binarySearch = require('../arrayShift/array-shift.js');
+const binarySearch = require('../arrayBinarySearch/array-binary-search.js');
 
 describe('ARRAY BINARY SEARCH TESTS:', () => {
 
