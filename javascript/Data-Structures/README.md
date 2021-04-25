@@ -1,3 +1,3 @@
 # Data Structures Table of Contents
 
-- [Linked Lists Implmentation](linked-list/lib/linked-list.js)
+- [Linked Lists Implementation](linked-list/lib/linked-list.js)
