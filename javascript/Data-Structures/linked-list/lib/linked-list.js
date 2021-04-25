@@ -43,7 +43,7 @@ class LinkedList {
       let node = this.head;
 
       while (node) {
-        str += (`${node.value} -> `);
+        str += (`{${node.value}} -> `);
         node = node.next;
       }
       return str.concat('NULL');
