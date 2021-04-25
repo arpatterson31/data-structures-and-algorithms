@@ -22,3 +22,9 @@ Define a method called `toString` which takes in no arguments and returns a stri
 - `includes` will determine if the passed in value is in the linked list
 - `toString` will print out the values in the linked list
 - `append` will add a new node to the end of the list
+
+## Links & Resources
+
+- [Linked Lists for JavaScript Developers](https://daveceddia.com/linked-lists-javascript/)
+- [Implmenting a Linked List in JavaScript](https://javascript.plainenglish.io/implementing-a-linked-list-in-javascript-3f71c83487b5)
+- [Newbie's Guide to Visualizing a linked list in JavaScript](https://medium.com/swlh/newbies-guide-to-visualizing-a-linked-list-in-javascript-e8f94f130c48)
