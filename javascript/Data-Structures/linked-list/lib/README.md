@@ -1,5 +1,7 @@
 # Singly Linked List
-<!-- Short summary or background information -->
+
+- *Linked List* - A data structure that contains nodes that links/points to the next node in the list.
+- *Singly* refers to the number of references the node has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
 
 ## Challenge
 
@@ -9,7 +11,14 @@ Define a method called `toString` which takes in no arguments and returns a stri
 `"{ a } -> { b } -> { c } -> NULL"`
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+- The Big O of time for `insert` would be O(1) because we replace the current `head` of the linked list with the new node.
+- The Big O of time for `includes` would be O(n).
+- The Big O of time for `toString` would be O(n) becasue we would need to traverse through the list to print out all the values.
 
 ## API
-<!-- Description of each method publicly available to your Linked List -->
+
+- `insert` will add a new node to the head of thie list
+- `includes` will determine if the passed in value is in the linked list
+- `toString` will print out the values in the linked list
+- `append` will add a new node to the end of the list
