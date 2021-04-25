@@ -1,7 +1,7 @@
 'use strict';
 
 // Require the linked list implementation
-const LinkedList = require('../../linked-list');
+const LinkedList = require('../../Data-Structures/linked-list/lib/linked-list.js');
 
 
 /*
@@ -13,4 +13,4 @@ module.exports = function reverse(list) {
 
   return true;
 
-}
+};
