@@ -6,6 +6,7 @@
 
 - [Array Shift](Challenges/arrayShift/array-shift.js)
 - [Array Binary Search](Challenges/arrayBinarySearch/array-binary-search.js)
+- [Linked Lists](Data-Structures/linked-list/lib/linked-list.js)
 
 ### Folder and Challenge Setup
 
