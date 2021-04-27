@@ -52,4 +52,32 @@ describe('Linked List', () => {
     expect(list.toString()).toEqual('{test node 1} -> {test node 2} -> NULL');
   });
 
+  it('Can successfully add a node to the end of the linked list', () => {
+    let list = new LinkedList();
+    list.insert('test node');
+    expect(list.head.value).toEqual('test node');
+    list.append('test node 2');
+    expect(list.head.next).toEqual({value: 'test node 2', next: null });
+  });
+
+  it('Can successfully add multiple nodes to the end of a linked list', () => {
+    let list = new LinkedList();
+    list.insert('test node');
+    expect(list.head.value).toEqual('test node');
+    list.append('test node 2');
+    expect(list.head.next).toEqual({value: 'test node 2', next: null });
+    list.append('test node 3');
+    expect(list.head.next.next).toEqual({value: 'test node 3', next: null});
+  });
+
+  it('Can successfully insert a node before the first node of a linked list', () => {
+    let list = new LinkedList();
+    list.insert('test node');
+    expect(list.head.value).toEqual('test node');
+    list.append('test node 2');
+    expect(list.head.next).toEqual({value: 'test node 2', next: null });
+    list.insertBefore('test node', 'test node 3');
+    expect(list.head.value).toEqual('test node');
+  });
+
 });
