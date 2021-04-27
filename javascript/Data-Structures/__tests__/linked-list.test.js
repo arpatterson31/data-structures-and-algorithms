@@ -72,12 +72,54 @@ describe('Linked List', () => {
 
   it('Can successfully insert a node before the first node of a linked list', () => {
     let list = new LinkedList();
-    list.insert('test node');
-    expect(list.head.value).toEqual('test node');
+    list.append('test node');
     list.append('test node 2');
-    expect(list.head.next).toEqual({value: 'test node 2', next: null });
     list.insertBefore('test node', 'test node 3');
     expect(list.head.value).toEqual('test node');
+  });
+
+  it('should return null if k is greater than the length of list', () => {
+    let list = new LinkedList();
+    list.insert(1);
+    expect(list.head.value).toEqual(1);
+    list.append(2);
+    expect(list.head.next).toEqual({value: 2, next: null});
+    list.kthFromEnd(3);
+    expect(list.kthFromEnd(3)).toEqual(null);
+  });
+
+  it('should return head value if k and the length are the same', () => {
+    let list = new LinkedList();
+    list.append(1);
+    list.append(2);
+    list.append(3);
+    expect(list.kthFromEnd(2)).toEqual(1);
+  });
+
+  it('should return null if k is a negative integer', () => {
+    let list = new LinkedList();
+    list.insert(1);
+    expect(list.head.value).toEqual(1);
+    list.append(2);
+    expect(list.head.next).toEqual({value: 2, next: null});
+    list.kthFromEnd(-2);
+    expect(list.kthFromEnd(-2)).toEqual(null);
+  });
+
+  it('should return value of node kth from end', () => {
+    let list = new LinkedList();
+    list.append(1);
+    list.append(2);
+    list.append(3);
+    list.append(4);
+    list.append(5);
+    expect(list.kthFromEnd(2)).toEqual(3);
+  });
+
+  it('should return null if linked list is size of 1 and k is larger than list size', () => {
+    let list = new LinkedList();
+    list.append(1);
+    expect(list.kthFromEnd(2)).toEqual(null);
   });
 
 });

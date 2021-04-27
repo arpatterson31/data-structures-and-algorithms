@@ -12,6 +12,7 @@
 - Define a method called `.append(value)` which adds a new node with the given value to the end of the list
 - Define a method called `.insertBefore(value, newVal)` which add a new node with the given newValue immediately before the first value node
 - Define a method called `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
+- Define a method for the Linked List class which takes a number, `k`, as a parameter. Return the node’s value that is `k` from the end of the linked list. 
 
 ## Approach & Efficiency
 
@@ -21,6 +22,7 @@
 - The Big O of time for `append` would O(n) because we have to traverse through the list to add the value at the end of the list
 - The Big O of time for `insertBefore` would be O(n) because we need to traverse the list to add the new node immediately before the first value node
 - The Big O of time for `insertAfter` would be O(n) because we are traversing to insert the node after the first value
+- The Big O of time for `kthFromEnd` would be O(n) because we visted each node at least once.
 
 ## API
 
