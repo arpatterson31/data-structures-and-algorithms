@@ -93,6 +93,28 @@ class LinkedList {
       current.next = node;
     }
   }
+
+  kthFromEnd(k) {
+    if(this.head === null || k < 1) {
+      return null;
+    }
+
+    let firstPointer = this.head;
+    let secondPointer = this.head;
+    // move 1st pointer to kth node from start
+    for(let i = 0; i < k; i++) {
+      if(firstPointer === null) // if length is less than k
+        return null;
+      firstPointer = firstPointer.next;
+    }
+    // move both pointers until 1st hits end of list
+    while (firstPointer.next !== null){
+      firstPointer = firstPointer.next;
+      secondPointer = secondPointer.next;
+    }
+    // 2nd pointer will now be at the kth from the end!
+    return secondPointer.value;
+  }
 }
 
 module.exports = LinkedList;

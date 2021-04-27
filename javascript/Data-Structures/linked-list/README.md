@@ -34,7 +34,12 @@
 - [Linked Lists for JavaScript Developers](https://daveceddia.com/linked-lists-javascript/)
 - [Implmenting a Linked List in JavaScript](https://javascript.plainenglish.io/implementing-a-linked-list-in-javascript-3f71c83487b5)
 - [Newbie's Guide to Visualizing a linked list in JavaScript](https://medium.com/swlh/newbies-guide-to-visualizing-a-linked-list-in-javascript-e8f94f130c48)
+- [Video for kth from end](https://www.youtube.com/watch?v=NbKOw1bvRpM)
 
 ## Solution
 
+- Whiteboard for LL Insertions
 ![Solution for Class 06](assets/ll-insertions-wb.png)
+
+- Whiteboard for LL kthFromEnd
+![Solution for Class 07](assets/ll-kth-from-end-wb.png)
