@@ -29,10 +29,8 @@ function zipLists(list1, list2) {
     else {
       return;
     }
-    return zippedList.head;
   }
-
-
+  return zippedList.head;
 }
 
 
