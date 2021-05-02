@@ -5,6 +5,7 @@ const Node = require('./node.js');
 class Stack {
   constructor() {
     this.length = 0;
+    this.top = null;
   }
 
   push(value) {
@@ -19,12 +20,12 @@ class Stack {
     let node = this[--this.length];
     delete this[this.length];
 
-    return node;
+    return node.value;
   }
 
   peek() {
     if(this.length === 0) return 'empty stack';
-    return this[this.length - 1];
+    return this[this.length - 1].value;
   }
 
   isEmpty() {
