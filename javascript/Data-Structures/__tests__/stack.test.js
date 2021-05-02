@@ -21,6 +21,14 @@ describe('Stack Tests:', () => {
     expect(stack.length).toEqual(1);
   });
 
+  it('Can successfully push multiples onto a stack', () => {
+    const stack = new Stack();
+    stack.push(5);
+    stack.push(10);
+    stack.push(15);
+    expect(stack.length).toEqual(3);
+  });
+
   it('Can successfully pop off the stack', () => {
     const stack = new Stack();
     stack.push(5);

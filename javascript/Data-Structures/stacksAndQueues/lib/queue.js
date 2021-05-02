@@ -11,8 +11,8 @@ class Queue {
   enqueue(value) {
     let node = new Node(value);
     this[this.length] = node;
+    if (!this.next) this.next = 0;
     this.length++;
-
     return this;
   }
 
