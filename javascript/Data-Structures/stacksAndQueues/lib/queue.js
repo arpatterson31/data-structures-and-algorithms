@@ -18,6 +18,13 @@ class Queue {
 
   dequeue() {
     if(this.length === 0) return 'queue is empty';
+    let temp = this[this.next];
+
+    delete this[this.next++];
+    this.length--;
+
+    return temp;
+
   }
 
   peek(){
