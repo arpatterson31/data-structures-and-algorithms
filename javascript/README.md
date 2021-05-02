@@ -8,6 +8,7 @@
 - [Array Binary Search](Challenges/arrayBinarySearch/array-binary-search.js)
 - [Linked Lists](Data-Structures/linked-list/lib/linked-list.js)
 - [Linked Lists - zipLists](Data-Structures/llZip/ll-zip.js)
+- [Stacks and Queues](Data-Structures/stacksAndQueues/lib/stacks-and-queues.js)
 
 ### Folder and Challenge Setup
 
