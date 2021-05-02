@@ -6,4 +6,5 @@
 
 - [Linked Lists Zip List](llZip/ll-zip.js)
 
-- [Stacks and Queues Implementation](stacksAndQueues/lib/stacks-and-queues.js)
+- [Stacks Implementation](stacksAndQueues/lib/stack.js)
+- [Queue Implementation](stacksAndQueues/lib/queue.js)
