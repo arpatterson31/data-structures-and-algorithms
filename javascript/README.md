@@ -10,6 +10,7 @@
 - [Linked Lists - zipLists](Data-Structures/llZip/ll-zip.js)
 - [Stacks](Data-Structures/stacksAndQueues/lib/stack.js)
 - [Queues](Data-Structures/stacksAndQueues/lib/queue.js)
+- [Queue with Stacks](Data-Structures/queueWithStacks/queue-with-stacks.js)
 
 ### Folder and Challenge Setup
 

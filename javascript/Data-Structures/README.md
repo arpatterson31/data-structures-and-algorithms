@@ -8,3 +8,5 @@
 
 - [Stacks Implementation](stacksAndQueues/lib/stack.js)
 - [Queue Implementation](stacksAndQueues/lib/queue.js)
+
+- [Queue with Stacks](queueWithStacks/queue-with-stacks.js)
