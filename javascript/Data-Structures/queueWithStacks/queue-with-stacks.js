@@ -18,6 +18,12 @@ class PseudoQueue {
     while(this.stack2.length !==0){
       this.stack1.push(this.stack2.pop());
     }
+    return this.stack1;
+  }
+
+  dequeue() {
+    if (this.stack1.length === 0) return false
+    return this.stack1.pop();
   }
 
 }
