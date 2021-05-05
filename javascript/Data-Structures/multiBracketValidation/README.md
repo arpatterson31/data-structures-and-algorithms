@@ -20,3 +20,5 @@
 ![Solution for Class 13](assets/cc13-wb.png)
 
 ## Links and Resources that helped me with this challenge
+
+- [Solution using stacks](https://paulrohan.medium.com/parenthesis-matching-problem-in-javascript-the-hacking-school-hyd-7d7708278911)
