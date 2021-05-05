@@ -12,6 +12,7 @@
 - [Queues](Data-Structures/stacksAndQueues/lib/queue.js)
 - [Queue with Stacks](Data-Structures/queueWithStacks/queue-with-stacks.js)
 - [Fifo Animal Shelter](Data-Structures/fifoAnimalShelter/fifo-animal-shelter.js)
+- [Multi-Bracket Validation](Data-Structures/multiBracketValidation/multi-bracket-validation.js)
 
 ### Folder and Challenge Setup
 
