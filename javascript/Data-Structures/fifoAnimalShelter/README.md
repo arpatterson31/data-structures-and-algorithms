@@ -9,6 +9,8 @@
 
 ## Approach & Efficiency
 
+- [Link to code](fifo-animal-shelter.js)
+
 ## Links that helped me visualize this challenge
 
 - [AvraamMavridis](https://github.com/AvraamMavridis/Algorithms-Data-Structures-in-Typescript/blob/master/exercises/exercise21.md)
