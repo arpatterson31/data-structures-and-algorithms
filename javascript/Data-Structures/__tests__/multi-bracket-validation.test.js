@@ -28,5 +28,9 @@ describe('Multi-Bracket Validation Test:', () => {
     expect(multiBracketValidation('[({}]')).toBe(false);
   });
 
+  it('Should return false with small examples: ]', () => {
+    expect(multiBracketValidation(']')).toBe(false);
+  });
+
 });
 
