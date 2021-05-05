@@ -14,6 +14,8 @@
 
 ## Approach & Efficiency
 
+- Big O - O(n) for traversing through the string input
+
 ## Solution
 
 - Whiteboard for Queues with Stacks
