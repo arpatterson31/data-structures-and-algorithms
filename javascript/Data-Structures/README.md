@@ -12,3 +12,5 @@
 - [Queue with Stacks](queueWithStacks/queue-with-stacks.js)
 
 - [Fifo Animal Shleter](fifoAnimalShelter/fifo-animal-shelter.js)
+
+- [Multi-Bracket Validation](multiBracketValidation/multi-bracket-validation.js)
