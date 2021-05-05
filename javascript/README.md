@@ -11,6 +11,7 @@
 - [Stacks](Data-Structures/stacksAndQueues/lib/stack.js)
 - [Queues](Data-Structures/stacksAndQueues/lib/queue.js)
 - [Queue with Stacks](Data-Structures/queueWithStacks/queue-with-stacks.js)
+-[Fifo Animal Shelter](Data-Structures/fifoAnimalShelter/fifo-animal-shelter.js)
 
 ### Folder and Challenge Setup
 
