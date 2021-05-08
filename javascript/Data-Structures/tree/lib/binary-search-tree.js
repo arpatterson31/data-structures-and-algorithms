@@ -9,11 +9,19 @@ class BinarySearchTree {
   }
 
   add(value){
-    // TODO
+    let node = new Node(value);
+
+    if (this.root === null) {
+      this.root = node;
+      return this;
+    } else {
+      // TODO
+    }
   }
 
   contains(value){
-    // TODO
+    if(this.root === null) return 'empty tree';
+    
   }
 }
 

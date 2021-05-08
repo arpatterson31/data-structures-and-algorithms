@@ -7,6 +7,17 @@ class BinaryTree {
     this.root = null;
   }
 
+  addNode(value){
+    let node = new Node(value);
+
+    if (this.root === null) {
+      this.root = node;
+      return this;
+    } else {
+      // TODO
+    }
+  }
+
   preOrder(){
     let results = [];
 
