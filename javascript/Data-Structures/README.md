@@ -14,3 +14,6 @@
 - [Fifo Animal Shleter](fifoAnimalShelter/fifo-animal-shelter.js)
 
 - [Multi-Bracket Validation](multiBracketValidation/multi-bracket-validation.js)
+
+- [Binary Tree Implementation](tree/lib/binary-tree.js)
+- [Binary Search Tree Implementation](tree/lib/binary-search-tree.js)
