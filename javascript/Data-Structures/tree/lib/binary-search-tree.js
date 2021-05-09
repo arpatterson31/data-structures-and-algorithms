@@ -35,7 +35,20 @@ class BinarySearchTree {
 
   contains(value){
     if(this.root === null) return 'empty tree';
-    // TODO
+
+    let current = this.root;
+    while(current){
+      if(value < current.value){
+        current = current.left;
+      }
+      else if(value > current.value){
+        current = current.right;
+      }
+      else {
+        return true;
+      }
+    }
+    return false;
   }
 }
 
