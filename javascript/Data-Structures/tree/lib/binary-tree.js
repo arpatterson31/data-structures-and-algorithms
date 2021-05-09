@@ -3,8 +3,8 @@
 const Node = require('./node.js');
 
 class BinaryTree {
-  constructor() {
-    this.root = null;
+  constructor(root = null) {
+    this.root = root;
   }
 
   insertNode(value) {
