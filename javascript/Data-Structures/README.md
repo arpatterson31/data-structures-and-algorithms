@@ -17,3 +17,5 @@
 
 - [Binary Tree Implementation](tree/lib/binary-tree.js)
 - [Binary Search Tree Implementation](tree/lib/binary-search-tree.js)
+
+- [Binary Tree - Find Max](tree/lib/binary-tree.js)

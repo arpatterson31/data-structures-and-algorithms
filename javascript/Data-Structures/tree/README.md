@@ -9,6 +9,8 @@
 
 - Define a method for each of the depth first traversals called `preOrder`, `inOrder`, and `postOrder` which returns an array of the values, ordered appropriately.
 
+- Write an instance method called `find-maximum-value`. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
 ### Binary Search Tree
 
 - Define a method named `add` that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
@@ -29,3 +31,9 @@
 - `preOrder` traversal D, L, R
 - `inOrder` traversal L, D, R
 - `postOrder` traversal L, R, D
+- `find-maximum-value` - return the max value stored in the tree
+
+## Solution
+
+- WB Solution for `findMaximumValue`
+![WB Code Challenge 16](assets/cc16-wb.png)
