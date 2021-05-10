@@ -67,4 +67,20 @@ describe('BINARY TREE TESTS:', () => {
     expect(bt.postOrder()).toEqual([2, 4, 5, 3, 1]);
   });
 
+  it('can find the max value in the tree', () => {
+    let one = new Node(2);
+    let two = new Node(5);
+    let three = new Node(70);
+    let four = new Node(15);
+    let five = new Node(13);
+
+    one.left = two;
+    one.right = three;
+    three.left = four;
+    three.right = five;
+    let bt = new BinaryTree(one);
+
+    expect(bt.findMaximumValue()).toEqual(70);
+  });
+
 });
