@@ -16,6 +16,7 @@
 - [Binary Trees](Data-Structures/tree/lib/binary-tree.js)
 - [Binary Search Trees](Data-Structures/tree/lib/binary-search-tree.js)
 - [Binary Tree - Find Max](Data-Structures/tree/lib/binary-tree.js)
+- [Binary Tree - Breadth First](Data-Structures/tree/lib/binary-tree.js)
 
 ### Folder and Challenge Setup
 
