@@ -61,6 +61,21 @@ class BinaryTree {
     return _findMax(this.root);
   }
 
+  breadthFirst() {
+    let results = [];
+    let queue = [];
+
+    queue.push(this.root);
+
+    while(queue.length !== 0){
+      let node = queue.shift();
+      results.push(node.value);
+      if(node.left) queue.push(node.left);
+      if(node.right) queue.push(node.right);
+    }
+    return results;
+  }
+
   insertNode(value) {
     let node = new Node(value);
 
