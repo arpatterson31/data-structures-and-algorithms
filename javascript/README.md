@@ -17,6 +17,7 @@
 - [Binary Search Trees](Data-Structures/tree/lib/binary-search-tree.js)
 - [Binary Tree - Find Max](Data-Structures/tree/lib/binary-tree.js)
 - [Binary Tree - Breadth First](Data-Structures/tree/lib/binary-tree.js)
+- [FizzBuzzTree](Data-Structures/fizzBuzzTree/fizz-buzz-tree.js)
 
 ### Folder and Challenge Setup
 
