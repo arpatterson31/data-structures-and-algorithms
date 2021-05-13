@@ -9,9 +9,10 @@
 - Return a new tree.
 
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
 
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+![wb](assets/cc18-wb.png)
 
 ## Solution
+
+- [K-ary tree Implementation help and BF traversal](https://medium.com/@khushboo.taneja_61450/implementing-binary-search-tree-and-n-ary-tree-in-javascript-ba3e2081d345)
+
