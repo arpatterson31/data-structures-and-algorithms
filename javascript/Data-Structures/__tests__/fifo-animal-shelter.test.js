@@ -2,7 +2,7 @@
 
 const { Animal, AnimalShelter } = require('../fifoAnimalShelter/fifo-animal-shelter.js');
 
-describe('ANIMAL SHELTER TESTS:', () => {
+xdescribe('ANIMAL SHELTER TESTS:', () => {
 
   it('Can enqueue a cat', () => {
     let shelter = new AnimalShelter();
