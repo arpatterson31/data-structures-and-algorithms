@@ -18,6 +18,7 @@
 - [Binary Tree - Find Max](Data-Structures/tree/lib/binary-tree.js)
 - [Binary Tree - Breadth First](Data-Structures/tree/lib/binary-tree.js)
 - [FizzBuzzTree](Data-Structures/fizzBuzzTree/fizz-buzz-tree.js)
+- [Blog - Insertion Sort](Data-Structures/blog/insertionSort/insertion.sort.js)
 
 ### Folder and Challenge Setup
 
