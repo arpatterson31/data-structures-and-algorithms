@@ -21,3 +21,5 @@
 - [Binary Tree - Find Max](tree/lib/binary-tree.js)
 - [Binary Tree - Breadth First](tree/lib/binary-tree.js)
 - [FizzBuzzTree](fizzBuzzTree/fizz-buzz-tree.js)
+
+- [Blog - Insertion Sort](blog/insertionSort/insertion.sort.js)
