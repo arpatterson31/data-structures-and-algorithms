@@ -27,6 +27,6 @@
 
 - [CODE: insertion sort](insertion-sort.js)
 
-### Whiteboard
+### Blog
 
-![Whiteboard](assets/)
+- [BLOG](BLOG.md)
