@@ -22,3 +22,17 @@ let arr = [8, 4, 23, 42, 16, 15]
 ![1st Iteration](assets/first-iteration.png)
 
 - Second Iteration
+![2nd Iteration](assets/second-iteration.png)
+
+- Third Iteration
+![3rd Iteration](assets/third-iteration.png)
+
+- Fourth Iteration
+![4th Iteration](assets/fourth-iteration.png)
+
+- Fifth Iteration
+![5th Iteration](assets/fifth-iteration.png)
+
+## Link to Code
+
+[Link to CODE](insertion-sort.js)
