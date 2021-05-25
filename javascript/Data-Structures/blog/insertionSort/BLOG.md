@@ -31,8 +31,13 @@ let arr = [8, 4, 23, 42, 16, 15]
 ![4th Iteration](assets/fourth-iteration.png)
 
 - Fifth Iteration
+
 ![5th Iteration](assets/fifth-iteration.png)
 
 ## Link to Code
 
 [Link to CODE](insertion-sort.js)
+
+## Link to tests
+
+[link to tests](https://github.com/arpatterson31/data-structures-and-algorithms/blob/insertion-sort/javascript/Data-Structures/__tests__/insertion-sort.test.js)

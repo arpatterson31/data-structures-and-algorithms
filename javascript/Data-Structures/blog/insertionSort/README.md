@@ -30,3 +30,8 @@
 ### Blog
 
 - [BLOG](BLOG.md)
+
+## Link to tests
+
+[link to tests](https://github.com/arpatterson31/data-structures-and-algorithms/blob/insertion-sort/javascript/Data-Structures/__tests__/insertion-sort.test.js)
+
