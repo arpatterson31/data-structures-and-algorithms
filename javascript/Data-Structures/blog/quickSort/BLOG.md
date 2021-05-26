@@ -46,3 +46,27 @@ let array = [8, 4, 23, 42, 16, 15]
 ````
 
 ## Visual Steps
+
+- Quick Sort starts out with taking in an array, a left or starting index, usually 0, and a right which is the last index in the array or array.length-1.  So as long at the array has more than one element, you'll enter into the if statement. The next step after that is to find the pivot using the helper function `partition`. Pivot is defined as arr[right] or the last element in the array. It then loops through and moves items less than to the left and ones greater than to the right:
+
+![first step](assets/first-step.png)
+
+- Time for recursion! Sorting the left:
+
+![sort left](assets/sort-left.png)
+
+- More recursion! Sorting the right:
+
+![sort right](assets/sort-right.png)
+
+- Bring it all together now at the position!
+
+![all together](assets/together.png)
+
+## Link to Code
+
+[Link to CODE](quick-sort.js)
+
+## Link to tests
+
+[link to tests](https://github.com/arpatterson31/data-structures-and-algorithms/blob/quick-sort/javascript/Data-Structures/__tests__/quick-sort.test.js)
