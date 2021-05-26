@@ -1,5 +1,7 @@
 # Quick Sort
 
+Like `mergeSort`, `quickSort` follows the divide and conquer approach. It 
+
 ## Pseudocode
 
 ````javascript
