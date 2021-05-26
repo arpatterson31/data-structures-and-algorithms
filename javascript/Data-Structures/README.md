@@ -24,3 +24,4 @@
 
 - [Blog - Insertion Sort](blog/insertionSort/BLOG.md)
 - [Blog - Merge Sort](blog/mergeSort/BLOG.md)
+- [Blog - Quick Sort](blog/quickSort/BLOG.md)
