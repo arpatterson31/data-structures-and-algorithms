@@ -1,6 +1,6 @@
 # Quick Sort
 
-Like `mergeSort`, `quickSort` follows the divide and conquer approach. It 
+Like `mergeSort`, `quickSort` follows the divide and conquer approach. It divides the arrays into smaller parts based on a condition and performs the sort on those divided smaller parts. It uses a helper function `partition` to find the pivot that function uses another function called `swap` to swap the position of two values.
 
 ## Pseudocode
 
@@ -36,3 +36,13 @@ ALGORITHM Swap(arr, i, low)
     arr[i] <-- arr[low]
     arr[low] <-- temp
 ````
+
+## Trace
+
+### Sample Array
+
+````javascript
+let array = [8, 4, 23, 42, 16, 15]
+````
+
+## Visual Steps
