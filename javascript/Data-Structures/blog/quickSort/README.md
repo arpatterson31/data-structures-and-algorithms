@@ -43,7 +43,7 @@ ALGORITHM Swap(arr, i, low)
 
 ### Links
 
-- [CODE: Merge Sort](quick-sort.js)
+- [CODE: Quick Sort](quick-sort.js)
 
 ### Blog
 
