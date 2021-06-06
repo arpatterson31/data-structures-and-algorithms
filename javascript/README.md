@@ -21,6 +21,7 @@
 - [Blog - Insertion Sort](Data-Structures/blog/insertionSort/BLOG.md)
 - [Blog - Merge Sort](Data-Structures/blog/mergeSort/BLOG.md)
 - [Blog - Quick Sort](Data-Structures/blog/quickSort/BLOG.md)
+- [Hash Table Implementation](Data-Structures/hashtable/lib/hashtable.js)
 
 ### Folder and Challenge Setup
 
