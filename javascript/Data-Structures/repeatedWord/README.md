@@ -1,4 +1,6 @@
-# Hash Table - Repeated Word
+# Repeated Word
+
+- Find the first repeated word in a lengthy string.
 
 ## Challenge Description
 
