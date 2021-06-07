@@ -27,3 +27,4 @@
 - [Blog - Quick Sort](blog/quickSort/BLOG.md)
 
 - [Hash Table Implementation](hashtable/lib/hashtable.js)
+- [Hash Table - Repeated Word](repeatedWord/repeated-word.js)
