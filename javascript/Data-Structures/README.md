@@ -28,3 +28,4 @@
 
 - [Hash Table Implementation](hashtable/lib/hashtable.js)
 - [Repeated Word](repeatedWord/repeated-word.js)
+- [Left Join](leftJoin/left-join.js)
