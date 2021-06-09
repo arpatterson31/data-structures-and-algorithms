@@ -23,6 +23,7 @@
 - [Blog - Quick Sort](Data-Structures/blog/quickSort/BLOG.md)
 - [Hash Table Implementation](Data-Structures/hashtable/lib/hashtable.js)
 - [Repeated Word](Data-Structures/repeatedWord/repeated-word.js)
+- [Left Join](Data-Structures/leftJoin/left-join.js)
 
 ### Folder and Challenge Setup
 
